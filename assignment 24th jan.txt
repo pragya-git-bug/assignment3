@@ -1,0 +1,43 @@
+assignment 24th jan
+ 
+Answer 1
+we can check by writing the command git --version
+
+Answer2
+To initialse a new git reposatory simple write cd path/to/your/project on the terminal.
+
+Answer3
+To tell git about your name and email write git config --global user.name "Your Name"
+and git config --global user.email "your.email@example.com"
+on the terminal.
+
+Answer4
+Write the following line of code
+# Add a specific file
+git add file.txt
+
+# Add all files in the current directory
+git add .
+
+# Add all files and subdirectories recursively
+git add --all
+
+Answer5
+To remove a file from the staging are just write the following line of code on the terminal
+git reset filename
+git rm --cached filename
+
+Answer6
+To commit in git write 
+git commit -m 
+
+Answer7 the code is
+git fetch origin
+git merge origin/main
+git push origin main
+git push -u origin main
+
+Answer8
+git clone is used to create a local copy of a remote repository.
+git pull is used to fetch and merge changes from a remote repository into your local branch.
+In essence, git clone is used to set up a new repository on your local machine, while git pull is used to update an existing repository with the latest changes from the remote repository.
